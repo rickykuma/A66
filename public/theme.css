@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+
+html, body{
+    /* background: red; */
+    /* background-image: linear-gradient(to bottom , #ccadc3, #fffeff);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 100%;
+   font-family: 'Dosis',serif;
+   /* overflow: auto; */
+   margin: 0;
+   overflow: scroll;
+}
+
+  
+  /* ************** navbar styles ************ */
+
+.topnav {
+    overflow: hidden;
+    padding: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+   }
+
+  .topnav a {
+    float: left;
+    color: #060606;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  .topnav .logo{
+    float: left;
+    font-size: 22px;
+    color: #059fcd;
+    display: inline;
+    padding:22px 16px;
+  }
+  .topnav a:hover {
+    background-color: #059fcd;
+    color: black;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    /* background-color: #ad5270; */
+    color: rgb(5, 5, 5);
+  }
+
+
+
+   /* ************** table styles ************ */
+
+  .table {
+    font-family: 'Dosis',serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table tr:hover {background-color: #ddd;}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #059fcd;
+    color: white;
+  }
+
+
+
+    
