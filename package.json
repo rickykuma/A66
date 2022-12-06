@@ -18,5 +18,13 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.26.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickykuma/A66.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rickykuma/A66/issues"
+  },
+  "homepage": "https://github.com/rickykuma/A66#readme",
   "description": ""
 }
